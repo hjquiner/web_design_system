@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid black;
+}
+
+.color-box {
+    display: inline-block;
+    width: 500px;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.color-label1 {
+    background-color: #dcd6f7
+}
+
+.color-label2 {
+    background-color: #a6b1e1
+}
+
+.color-label3 {
+    background-color: #b4869f
+}
+
+.color-label4 {
+    background-color: #985f6f
+}
+
+.color-label5 {
+    background-color: #4e4c67;
+    color: white;
+}
