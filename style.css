@@ -1,26 +1,35 @@
 * {
     box-sizing: border-box;
-    font-family: 'Lora';
+    font-family: 'Lora', serif;
 }
 
 h1 {
+    font-weight: 700;
     font-size: 50px;
     text-align: center;
 }
 
 h2 {
+    font-weight: bold;
     font-size: 30px;
     font-style: italic;
 }
 
+h3 {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
 p {
+    font-weight: normal;
     font-size: 15px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
 }
 
 .container {
     border: 2px solid black;
     text-align: center;
+    margin: 20px 50px;
 }
 
 .color-detail {
@@ -50,4 +59,40 @@ p {
 #independence {
     background-color: #4e4c67;
     color: white;
+}
+
+.font-detail {
+    display: inline-block;
+    width: 32%;
+    margin: 30px auto;
+    text-align: left;
+}
+
+#lora p {
+    font-family: 'Lora', serif;
+}
+
+#poppins h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+.text-detail {
+    display: block;
+    width: 50%;
+    margin: 30px auto;
+    min-height: 100 px;
+}
+
+.text-list {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
 }
