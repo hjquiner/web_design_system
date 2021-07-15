@@ -1,36 +1,53 @@
 * {
     box-sizing: border-box;
+    font-family: 'Lora';
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-style: italic;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Poppins';
 }
 
 .container {
     border: 2px solid black;
-}
-
-.color-box {
-    display: inline-block;
-    width: 500px;
     text-align: center;
-    margin: 20px auto;
-    min-height: 100px;
 }
 
-.color-label1 {
+.color-detail {
+    display: inline-block;
+    width: 32%;
+    margin: 30px auto;
+    min-height: 100 px;
+}
+
+#lavender-web {
     background-color: #dcd6f7
 }
 
-.color-label2 {
+#blue-purple {
     background-color: #a6b1e1
 }
 
-.color-label3 {
+#english-lavender {
     background-color: #b4869f
 }
 
-.color-label4 {
-    background-color: #985f6f
+#rose-dust {
+    background-color: #985f6f;
+    color: white;
 }
 
-.color-label5 {
+#independence {
     background-color: #4e4c67;
     color: white;
 }
